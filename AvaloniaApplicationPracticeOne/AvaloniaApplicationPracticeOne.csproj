@@ -1,0 +1,216 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
+        <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectCapability Include="Avalonia" />
+        <TrimmerRootAssembly Include="Avalonia.Themes.Fluent" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="0.10.21" />
+        <PackageReference Include="Avalonia.Desktop" Version="0.10.21" />
+        <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+        <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="0.10.21" />
+        <PackageReference Include="Avalonia.Xaml.Interactivity" Version="0.10.19" />
+        <PackageReference Include="MessageBox.Avalonia" Version="2.1.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0-preview.4.23259.3">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0-preview.4.23259.3" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0-preview.4.23259.3">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0-preview.4" />
+        <PackageReference Include="XamlNameReferenceGenerator" Version="1.6.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="UserWindowTypeCar.axaml.cs">
+        <DependentUpon>UserWindowTypeCar.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="UserWindowCar.axaml.cs">
+        <DependentUpon>UserWindowCar.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="UserWindowDriver.axaml.cs">
+        <DependentUpon>UserWindowDriver.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="UserWindowRightsCategory.axaml.cs">
+        <DependentUpon>UserWindowRightsCategory.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="UserWindowDriverRightsCategory.axaml.cs">
+        <DependentUpon>UserWindowDriverRightsCategory.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="UserWindowItinerary.axaml.cs">
+        <DependentUpon>UserWindowItinerary.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="UserWindowRoute.axaml.cs">
+        <DependentUpon>UserWindowRoute.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AdminTableSelectWindow.axaml.cs">
+        <DependentUpon>AdminTableSelectWindow.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AdminWindowTypeCar.axaml.cs">
+        <DependentUpon>AdminWindowTypeCar.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AdminWindowCar.axaml.cs">
+        <DependentUpon>AdminWindowCar.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AdminWindowDriver.axaml.cs">
+        <DependentUpon>AdminWindowDriver.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AdminWindowRightsCategory.axaml.cs">
+        <DependentUpon>AdminWindowRightsCategory.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AdminWindowDriverRightsCategory.axaml.cs">
+        <DependentUpon>AdminWindowDriverRightsCategory.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AdminWindowItinerary.axaml.cs">
+        <DependentUpon>AdminWindowItinerary.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AdminWindowRoute.axaml.cs">
+        <DependentUpon>AdminWindowRoute.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AddWindows\AddWindowCar.axaml.cs">
+        <DependentUpon>RegistrationWindowCar.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AddWindows\AddWindowDriver.axaml.cs">
+        <DependentUpon>AddWindowDriver.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AddWindows\AddWindowTypeCar.axaml.cs">
+        <DependentUpon>AddWindowTypeCar.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AddWindows\AddWindowRightCategory.axaml.cs">
+        <DependentUpon>AddWindowRightCategory.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AddWindows\AddWindowItinerary.axaml.cs">
+        <DependentUpon>AddWindowItinerary.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AddWindows\AddWindowRoute.axaml.cs">
+        <DependentUpon>AddWindowRoute.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AddWindows\AddWindowDriverRightsCategory.axaml.cs">
+        <DependentUpon>AddWindowDriverRightsCategory.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="EditWindows\EditWindow.axaml.cs">
+        <DependentUpon>EditWindow.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="EditWindows\EditWindowRoute.axaml.cs">
+        <DependentUpon>EditWindowRoute.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="EditWindows\EditWindowTypeCar.axaml.cs">
+        <DependentUpon>EditWindowTypeCar.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="EditWindows\EditWindowItinerary.axaml.cs">
+        <DependentUpon>EditWindowItinerary.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="EditWindows\EditWindowCar.axaml.cs">
+        <DependentUpon>EditWindowCar.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="EditWindows\EditWindowDriver.axaml.cs">
+        <DependentUpon>EditWindowDriver.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="EditWindows\EditWindowRightCategory.axaml.cs">
+        <DependentUpon>EditWindowRightCategory.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="EditWindows\EditWindowDriverRightsCategory.axaml.cs">
+        <DependentUpon>EditWindowDriverRightsCategory.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <AvaloniaXaml Update="UserWindowCar.axaml">
+        <DependentUpon>UserTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="UserWindowDriver.axaml">
+        <DependentUpon>UserTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="UserWindowDriverRightsCategory.axaml">
+        <DependentUpon>UserTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="UserWindowItinerary.axaml">
+        <DependentUpon>UserTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="UserWindowRightsCategory.axaml">
+        <DependentUpon>UserTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="UserWindowRoute.axaml">
+        <DependentUpon>UserTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="UserWindowTypeCar.axaml">
+        <DependentUpon>UserTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="AdminWindow.axaml">
+        <DependentUpon>AdminTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="AdminWindowCar.axaml">
+        <DependentUpon>AdminTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="AdminWindowDriver.axaml">
+        <DependentUpon>AdminTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="AdminWindowDriverRightsCategory.axaml">
+        <DependentUpon>AdminTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="AdminWindowItinerary.axaml">
+        <DependentUpon>AdminTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="AdminWindowRightsCategory.axaml">
+        <DependentUpon>AdminTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="AdminWindowRoute.axaml">
+        <DependentUpon>AdminTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+      <AvaloniaXaml Update="AdminWindowTypeCar.axaml">
+        <DependentUpon>AdminTableSelectWindow.axaml</DependentUpon>
+      </AvaloniaXaml>
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="UserWindowCar.axaml" />
+      <AdditionalFiles Include="UserWindowDriver.axaml" />
+      <AdditionalFiles Include="UserWindowDriverRightsCategory.axaml" />
+      <AdditionalFiles Include="UserWindowItinerary.axaml" />
+      <AdditionalFiles Include="UserWindowRightsCategory.axaml" />
+      <AdditionalFiles Include="UserWindowRoute.axaml" />
+      <AdditionalFiles Include="UserWindowTypeCar.axaml" />
+    </ItemGroup>
+</Project>

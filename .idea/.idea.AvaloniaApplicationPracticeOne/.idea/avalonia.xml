@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="AvaloniaApplicationPracticeOne/AddWindows/AddWindowCar.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AddWindows/AddWindowDriver.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AddWindows/AddWindowDriverRightsCategory.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AddWindows/AddWindowItinerary.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AddWindows/AddWindowRightCategory.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AddWindows/AddWindowRoute.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AddWindows/AddWindowTypeCar.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AdminTableSelectWindow.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AdminWindow.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AdminWindowCar.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AdminWindowDriver.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AdminWindowDriverRightsCategory.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AdminWindowItinerary.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AdminWindowRightsCategory.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AdminWindowRoute.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/AdminWindowTypeCar.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/App.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/EditWindow.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/EditWindows/EditWindow.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/EditWindows/EditWindowCar.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/EditWindows/EditWindowDriver.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/EditWindows/EditWindowDriverRightsCategory.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/EditWindows/EditWindowItinerary.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/EditWindows/EditWindowRightCategory.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/EditWindows/EditWindowRoute.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/EditWindows/EditWindowTypeCar.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/MainWindow.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/RegistrationWindow.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/RegistrationWindowCar.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/TableSelectWindow.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/UserTableSelectWindow.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/UserWindow.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/UserWindowCar.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/UserWindowDriver.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/UserWindowDriverRightsCategory.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/UserWindowItinerary.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/UserWindowRightsCategory.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/UserWindowRoute.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+        <entry key="AvaloniaApplicationPracticeOne/UserWindowTypeCar.axaml" value="AvaloniaApplicationPracticeOne/AvaloniaApplicationPracticeOne.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

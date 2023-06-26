@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Width="350" Height="400" CanResize="False"
+        x:Class="AvaloniaApplicationPracticeOne.EditWindowRightCategory"
+        Title="Изменение типа категории">
+    <StackPanel Orientation="Vertical"
+                Margin="25"
+                VerticalAlignment="Center" >
+        <TextBox Name="NameTBox"
+                 Watermark="Введите тип категории"
+                 Margin="0 0 0 10"/>
+            
+        <Button Content="Изменить"
+                HorizontalAlignment="Center"
+                Margin="0 0 0 10"
+                Name="RegBtn"
+                Click="EditBtn_OnClick"/>
+        <Button Content="Отмена"
+                HorizontalAlignment="Center"
+                Name="BackBtn"
+                Click="BackBtn_OnClick"/>
+    </StackPanel>
+</Window>

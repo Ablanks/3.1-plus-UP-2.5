@@ -1,0 +1,55 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Width="350" Height="400" CanResize="False"
+        x:Class="AvaloniaApplicationPracticeOne.AddWindowRoute"
+        Title="Добавление рейса">
+    <StackPanel Orientation="Vertical"
+                Margin="25"
+                VerticalAlignment="Center" >
+        <ComboBox Name="RoleCBox"
+                  Margin="0 0 0 30"
+                  Width="300">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{Binding FirstName}" Margin="0 0 5 0"/>
+                    <TextBlock Text="{Binding LastName}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <ComboBox Name="RoleCBox2"
+                  Margin="0 0 0 30"
+                  Width="300">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <ComboBox Name="RoleCBox3"
+                  Margin="0 0 0 30"
+                  Width="300">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <TextBox Name="NameTBox"
+                 Watermark="Введите количество пассажиров"
+                 Margin="0 0 0 10"/>
+        
+        <Button Content="Добавить"
+                HorizontalAlignment="Center"
+                Margin="0 0 0 10"
+                Name="RegBtn"
+                Click="RegBtn_OnClick"/>
+        <Button Content="Назад"
+                HorizontalAlignment="Center"
+                Name="BackBtn"
+                Click="BackBtn_OnClick"/>
+    </StackPanel>
+</Window>

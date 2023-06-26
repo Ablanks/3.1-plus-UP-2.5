@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          x:Class="AvaloniaApplicationPracticeOne.UserTableSelectWindow"
+        Width="600"
+        Height="400"
+        Title="Выбор таблицы [Пользователь]">
+    <StackPanel HorizontalAlignment="Center">
+            <Button Content="Типы машин" Click="Table1Btn_OnClick" Margin="0 10"/>
+            <Button Content="Машины" Click="Table2Btn_OnClick" Margin="0 10"/>
+            <Button Content="Водители" Click="Table3Btn_OnClick" Margin="0 10"/>
+            <Button Content="Категории прав" Click="Table4Btn_OnClick" Margin="0 10"/>
+            <Button Content="Категории прав водителей" Click="Table5Btn_OnClick" Margin="0 10"/>
+            <Button Content="Маршруты" Click="Table6Btn_OnClick" Margin="0 10"/>
+            <Button Content="Рейсы" Click="Table7Btn_OnClick" Margin="0 10"/>
+        </StackPanel>
+</Window>
